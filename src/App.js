@@ -8,7 +8,7 @@ const App = () => {
       <CounterIndicator />
       <CounterButtons />
     </div>
-  );
+  )
 }
 
 export default App
