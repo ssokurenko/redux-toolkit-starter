@@ -11,8 +11,13 @@ const CounterButtons = () => {
 
   return (
     <div>
-      <button onClick={handlePlusClick}>+</button>
-      <button onClick={handleMinusClick}>-</button>
+      <button className="lin-button is-secondary" onClick={handlePlusClick}>
+        +
+      </button>
+      &nbsp;
+      <button className="lin-button is-danger" onClick={handleMinusClick}>
+        -
+      </button>
     </div>
   )
 }
